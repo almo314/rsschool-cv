@@ -1,1 +1,1 @@
-# rsschool-cv
+https://almo314.github.io/rsschool-cv/cv
