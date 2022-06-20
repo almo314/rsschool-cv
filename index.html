@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <title>Aleksandr M. CV</title>
 </head>
 <body>
@@ -12,70 +12,95 @@
         <a href="https://almo314.github.io/rsschool-cv/" target="_blank">rsschool-cv</a>
     </h1>
     <hr size="5" noshade color="purple"/>
-    <h1>Александр Молокоедов</h1>
-    <p>Junior Frontend Developer</p>
-    <hr/>
-    <h2>Контактная информация:</h2>
-    <p1><strong>Телефон: </strong>8 800 555 35 35</p1>
-    <br/>
-    <p2><strong>e-mail: </strong>email@am.edu</p2>
-    <br/>
-    <p3><strong>Telegram: </strong>@am</p3>
-    <hr/>
-    <h2>О себе:</h2>
-    <p>Окончил школу на отлично и поступил на физтех по специальности прикладные математика и физика. Во время учебы на младших курсах работал с школьниками в заочной физико-технической школе при МФТИ.
-    На 4 курсе проходил стажировку в ПАО НК "Роснефть" - понял, что не моё. На 5 курсе заинтересовался анализом баз данных, прошёл стажировку в "Тинькофф" на должность продуктовый аналитик.
-    Во время этой стажировки заинтересовался frontend разработкой и записался на курсы RollingScopesSchool. Веду здоровый образ жизни и не имею вредных привычек)</p>
-    <hr/>
-    <h2>Опыт работы</h2>
-    <table border="2">
-        <tr>
-            <th>Компания</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </tr>
-        <tr>
-            <td>Московский физико-технический институт (Государственный университет)</td>
-            <td>Преподаватель ЗФТШ</td>
-            <td>Сентябрь 2018 — Май 2019</td>
-        </tr>
-        <tr>
-            <td>Институт Динамики Геосфер, ИДГ РАН</td>
-            <td>Техник в лаборатории геомеханики и флюидодинамики</td>
-            <td>Ноябрь 2019 — Сентябрь 2020</td>
-        </tr>
-        <tr>
-            <td>ПАО НК Роснефть</td>
-            <td>Стажер департамента планирования, управления эффективностью и развития газового бизнеса</td>
-            <td>Сентябрь 2020 — Май 2021</td>
-        </tr>
-        <tr>
-            <td>ТЦР Тинькофф</td>
-            <td>Стажер продуктовый аналитик</td>
-            <td>Март 2022 — Июнь 2022</td>
-        </tr>
-    </table>
-    <h2>Образование и курсы</h2>
-    <ul> 
-        <li><a href="https://mipt.ru/" target="_blank"><strong>Московский физико-технический институт (МФТИ):</strong></a> Бакалавриат (2016-2020), Магистратура (2020-2022)</li>
-        <li><a href="https://stepik.org/course/58852/syllabus" target="_blank"><strong>"Поколение Python": курс для начинающих</strong></a>
-            <br>
-            <img alt="StepikImage" src="Python1.png" width="500"/>
-        </li>
-        <li><a href="https://stepik.org/course/68343/syllabus" target="_blank"><strong>"Поколение Python": курс для продвинутых</strong></a>
-            <br>
-            <img alt="StepikImage" src="Python2.png" width="500"/>
-        </li>
-        <li><a href="https://stepik.org/course/63054/syllabus" target="_blank"><strong>Интерактивный тренажер по SQL</strong></a>
-            <br>
-            <img alt="StepikImage" src="SQLstepik.png" width="500"/>
-        </li>
-    </ul>
-    <hr/>
-    <h2>Языки:</h2>
-    <ul>
-        <li><strong>Русский </strong>- родной</li>
-        <li><strong>Английский </strong> - Upper Intermediate</li>
-    </ul>
+
+    <div class="conteiner">
+        <div class="kto">
+            <img class="ava" alt="photo" src="sova.jpg"/>
+            <h1>Александр Молокоедов</h1>
+            <p>Junior Frontend Developer</p>
+        </div>
+
+        <hr/>
+
+        <div class="bloki bg-pink">
+            <h2>Контактная информация:</h2>
+            <ul class="ulist">
+                <li><strong>Телефон: </strong>8 800 555 35 35</li>
+                <li><strong>e-mail: </strong>email@am.edu</li>
+                <li><strong>Telegram: </strong>@am</li>
+        </div>
+
+        <div class="bloki bg-yel">
+            <h2>О себе:</h2>
+            <p>Окончил школу на отлично и поступил на физтех по специальности прикладные математика и физика. Во время учебы на младших курсах работал с школьниками в заочной физико-технической школе при МФТИ.
+            На 4 курсе проходил стажировку в ПАО НК "Роснефть" - понял, что не моё. На 5 курсе заинтересовался анализом баз данных, прошёл стажировку в "Тинькофф" на должность продуктовый аналитик.
+            Во время этой стажировки заинтересовался frontend разработкой и записался на курсы RollingScopesSchool. Веду здоровый образ жизни и не имею вредных привычек)</p>
+        </div>
+
+        <div class="bloki bg-red">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <tr>
+                    <th>Компания</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>
+                <tr>
+                    <td>Московский физико-технический институт (Государственный университет)</td>
+                    <td>Преподаватель ЗФТШ</td>
+                    <td>Сентябрь 2018 — Май 2019</td>
+                </tr>
+                <tr>
+                    <td>Институт Динамики Геосфер, ИДГ РАН</td>
+                    <td>Техник в лаборатории геомеханики и флюидодинамики</td>
+                    <td>Ноябрь 2019 — Сентябрь 2020</td>
+                </tr>
+                <tr>
+                    <td>ПАО НК Роснефть</td>
+                    <td>Стажер департамента планирования, управления эффективностью и развития газового бизнеса</td>
+                    <td>Сентябрь 2020 — Май 2021</td>
+                </tr>
+                <tr>
+                    <td>ТЦР Тинькофф</td>
+                    <td>Стажер продуктовый аналитик</td>
+                    <td>Март 2022 — Июнь 2022</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="bloki bg-gr">
+            <h2>Образование и курсы</h2>
+            <p>
+                <a href="https://mipt.ru/" target="_blank"><strong>Московский физико-технический институт (МФТИ):</strong></a> Бакалавриат (2016-2020), Магистратура (2020-2022)</li>
+            </p>
+            <p>
+                <a href="https://stepik.org/course/58852/syllabus" target="_blank"><strong>"Поколение Python": курс для начинающих</strong></a>
+            </p>     
+            <div class="sertificat">
+                <img class="sertificat" alt="StepikImage" src="Python1.png" width="500"/>
+            </div>
+            
+            <p>
+                <a href="https://stepik.org/course/68343/syllabus" target="_blank"><strong>"Поколение Python": курс для продвинутых</strong></a>
+            </p>
+            <div class="sertificat">   
+                <img class="sertificat" alt="StepikImage" src="Python2.png" width="500"/>
+            </div>
+            <p>
+                <a href="https://stepik.org/course/63054/syllabus" target="_blank"><strong>Интерактивный тренажер по SQL</strong></a>
+            </p> 
+            <div class="sertificat">
+                <img class="sertificat" alt="StepikImage" src="SQLstepik.png" width="500"/>
+            </div>    
+        </div>
+        
+        <div class="bloki bg-f">
+            <h2>Языки:</h2>
+            <ul>
+                <li><strong>Русский </strong>- родной</li>
+                <li><strong>Английский </strong>- Upper Intermediate</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>

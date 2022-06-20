@@ -1,0 +1,104 @@
+body {
+    background-color: #ebebeb; /*цвет фона*/
+    color: #191970; /*цвет текста*/
+    font-size: 18px; /*размер текста*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.conteiner {
+    max-width: 850px;
+    margin: auto;
+
+}
+
+.ava {
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.3);
+}
+
+.kto p {
+    color: #808080;
+    /*font-style: italic; наклонный*/
+    /*font-weight: bold; жирный*/
+    /*text-decoration: underline; подчеркнутый*/
+    /*text-transform: lowercase;*/
+    /*letter-spacing: 2px;
+    word-spacing: 3px;*/
+}
+
+/* .contact {
+    background: red;
+    margin: 20px;
+    border: 3px solid black;
+    padding: 15px;
+} */
+
+.bg-yel {
+    background: #fff9dc;
+}
+
+.bg-gr {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.bg-pink {
+    background: #edb7e1;
+}
+
+.bg-f {
+    background: #abaddb;
+}
+
+.bloki {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.bloki h2 {
+    margin-bottom: 15px;
+}
+
+/* .ulist {
+    list-style: none;
+} */
+
+/* .ulist li {
+    color: #808080;
+}  */
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 15px;
+}
+
+/* .table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #808080;
+} */
+
+li {
+    margin-bottom: 10px;
+}
+
+.sertificat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* .sertificat {
+    display: block;
+    margin-left: 100px;
+    margin-right: auto;
+} */
