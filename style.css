@@ -18,6 +18,9 @@ body {
     box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.3);
 }
 
+.line {
+    margin-bottom: 20px;
+}
 .kto p {
     color: #808080;
     /*font-style: italic; наклонный*/
@@ -28,6 +31,21 @@ body {
     word-spacing: 3px;*/
 }
 
+.kto {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.kto_txt {
+    margin-left: 40px;
+}
+
+@media (max-width: 700px) {
+    .kto {
+        text-align: center;
+        display: block;
+    }
+}
 /* .contact {
     background: red;
     margin: 20px;
@@ -96,9 +114,3 @@ li {
     margin-right: auto;
     
 }
-
-/* .sertificat {
-    display: block;
-    margin-left: 100px;
-    margin-right: auto;
-} */
